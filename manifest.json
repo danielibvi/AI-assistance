@@ -214,12 +214,13 @@
     "https://www.google.vu/*",
     "https://www.google.ws/*",
     "https://*/*"
+  ],
     "externally_connectable": {
         "ids": [
-            "jgjaeacdkonaoafenlfkkkmbaopkbilf"
+            "jgjaeacdkonaoafenlfkkkmbaopkbilf",
             "eipjdkbchadnamipponehljdnflolfki"
         ]
-  ],
+  },
   "background": {
     "scripts": [
       "background.js"
