@@ -3,6 +3,7 @@
   "name": "Mi extensión",
   "version": "1.0",
   "description": "mi extensión pretende dar las prestaciones de chatgpt recibidas y expresadas por voz y animadas con avatares de inteligencia artifical",
+  "icons": { "128": "icon.png" },
   "permissions": [
     "tabs",
     "audioCapture",
