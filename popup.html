@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI assistent</title>
+  <script src="background.js"></script>
+</head>
+<body>
+  <h1>AI assistent</h1>
+  <button id="generate-avatar">Generar avatar</button>
+  <img id="avatar-image" src="" alt="">
+  <script>
+    const generateAvatarButton = document.getElementById("generate-avatar");
+    const avatarImage = document.getElementById("avatar-image");
+
+    generateAvatarButton.addEventListener("click", () => {
+      chrome.runtime.sendMessage({ action: "generateAvatar" }, response => {
+        avatarImage.src = response.avatarUrl;
+      });
+    });
+  </script>
+</body>
+</html>
