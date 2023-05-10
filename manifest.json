@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Mi extensión",
   "version": "1.0",
-  "description": "mi extensión pretende dar las prestaciones de chatgpt recibidas y expresadas por voz y animadas con avatares de inteligencia artifical",
+  "description": "my extension intends to give the features of chatgpt received and expressed by voice and animated with avatars of artificial intelligence",
   "icons": { "128": "icon.png" },
   "permissions": [
     "tabs",
