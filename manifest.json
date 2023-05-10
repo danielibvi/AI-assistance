@@ -72,14 +72,5 @@
       "https://127.0.0.1/*"
     ],
     "accept_tls_channel_id": true
-  },
-  "background": {
-    "scripts": [
-      "background.js"
-    ]
   }
 }
-
-
-
-
